@@ -1,14 +1,14 @@
 #pragma once
 
 // Rotational Stepper: ("X")
-#define X_STEP_PIN 11
-#define X_DIR_PIN 10
-#define X_ENABLE_PIN 9
+#define X_STEP_PIN 5
+#define X_DIR_PIN 2
+#define X_ENABLE_PIN 1
 
 // Pen Stepper:        ("Y")
-#define Y_STEP_PIN 8
-#define Y_DIR_PIN 7
-#define Y_ENABLE_PIN 6
+#define Y_STEP_PIN 6
+#define Y_DIR_PIN 3
+#define Y_ENABLE_PIN 12 // this is intentionally set to some non connected pin as the CNC board has the ENABLE pins for all axes connected anyway; enabling one is sufficient, so
 
 // Servo
 #define SERVO_PIN A1 // "SpnEn"
