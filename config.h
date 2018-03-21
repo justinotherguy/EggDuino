@@ -15,6 +15,6 @@
 #define ENGRAVER_PIN A4 // "SpnDir"
 
 // Buttons
-#define PRG_BUTTON_PIN A0 // PRG button ("Abort")
-#define PEN_TOGGLE_BUTTON_PIN A1 // pen up/down button ("Hold")
-#define MOTORS_BUTTON_PIN A2   // motors enable button ("Resume")
+#define PRG_BUTTON_PIN A0 // PRG button ("Stop")
+#define PEN_TOGGLE_BUTTON_PIN A1 // pen up/down button ("Arm")
+#define MOTORS_BUTTON_PIN A2   // motors enable button ("Motor")
