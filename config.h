@@ -5,7 +5,7 @@
 #define X_DIR_PIN 5
 #define X_ENABLE_PIN 8 // only one ENABLE pin for all axes
 
-// Pen Stepper:        ("Y")
+// Pen Stepper:        ("Z")
 #define Y_STEP_PIN 4
 #define Y_DIR_PIN 7
 #define Y_ENABLE_PIN 11 // this is intentionally set to some non connected pin as the CNC board has the ENABLE pins for all axes connected anyway; enabling one is sufficient, so
